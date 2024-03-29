@@ -1,0 +1,100 @@
+.form-input__control {
+  width: calc(100% - 12px);
+  max-width: 1116px;
+  max-height: 65px;
+  border: 5px solid #ffb700;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 8px 0 rgba(26, 26, 26, 0.16);
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.form-input__control .fa {
+  color: #acacac;
+  position: absolute;
+  top: 28px;
+  z-index: 10;
+  /* make icon stay in the right of its container */
+  display: inline-block;
+  width: 35px;
+  text-align: right;
+}
+
+.form-input__control .input-icon {
+  width: 25%;
+  padding: 10px;
+  position: relative;
+}
+
+.form-input__control .input-location {
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border-style: none;
+  position: relative;
+  margin-left: 40px;
+}
+
+.form-input__control .input-location:focus {
+  outline: none;
+}
+
+.form-input__control .form-btn {
+  background-color: #0071c2;
+  height: 40px;
+  line-height: 40px;
+  width: 90px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-input__control .form-btn:hover {
+  box-shadow: 0 2px 3px 0 #828080;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 992px) {
+  .header-container {
+    padding-bottom: 160px;
+    text-align: center;
+  }
+
+  .form-input__control {
+    width: calc(100% - 12px);
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    bottom: 80px;
+    background-color: #ffb700;
+  }
+
+  .form-input__control .input-icon {
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 6px 10px;
+  }
+
+  .form-input__control .input-icon input {
+    width: 90%;
+  }
+
+  .form-input__control a,
+  .form-input__control .form-btn {
+    width: 100%;
+  }
+}

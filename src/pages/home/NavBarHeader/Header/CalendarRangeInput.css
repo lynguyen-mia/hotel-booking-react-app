@@ -1,0 +1,33 @@
+.input-calendar {
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border-style: none;
+  margin-left: 40px;
+}
+
+.input-calendar:focus {
+  outline: none;
+}
+
+.calendar-range {
+  z-index: 9999;
+  position: absolute;
+  top: 58px;
+  left: 30px;
+  box-shadow: 0 2px 8px 0 #828080;
+  border-radius: 5px;
+}
+
+.input-calendar[value] {
+  color: black;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 992px) {
+  .calendar-range {
+    top: 52px;
+    left: 0;
+  }
+}

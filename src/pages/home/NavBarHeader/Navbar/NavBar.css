@@ -1,0 +1,80 @@
+.Navbar {
+  background-color: #003580;
+  color: white;
+  position: relative;
+}
+
+.Navbar-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 12px 40px;
+}
+
+.Navbar-menu {
+  padding-left: 0;
+}
+
+/* Navbar name & buttons */
+.Navbar-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar-name h2 {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.Navbar-btn {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.Navbar-btn button {
+  padding: 0 15px;
+  cursor: pointer;
+  color: #003580;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Navbar menu */
+.Navbar-menu {
+  display: flex;
+  gap: 30px;
+  height: 42px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.Navbar li {
+  list-style: none;
+  height: 42px;
+  padding: 0 10px;
+}
+
+.Navbar a {
+  text-decoration: none;
+  color: white;
+  line-height: 42px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+  .Navbar-menu {
+    gap: 0;
+    margin-top: 25px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .Navbar-btn button {
+    font-size: 14px;
+  }
+
+  .Navbar-container {
+    padding-bottom: 70px;
+  }
+}

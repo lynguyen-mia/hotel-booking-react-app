@@ -1,0 +1,8 @@
+.navbar-icon {
+  margin-right: 10px;
+}
+
+.navbar-item__border {
+  border: 1px solid white;
+  border-radius: 25px;
+}

@@ -1,0 +1,13 @@
+.search-list-container {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 992px) {
+  .search-list-container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+.search-container {
+  max-width: 1110px;
+  margin: 40px auto 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 992px) {
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+  }
+}

@@ -1,0 +1,38 @@
+.input-search-calendar {
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border-style: none;
+}
+
+.search-calendar-box {
+  z-index: 9999;
+  position: absolute;
+  top: 75px;
+  left: 0;
+  box-shadow: 0 2px 8px 0 #828080;
+}
+
+.input-search-calendar[value] {
+  color: black;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 992px) {
+  .checkin-date {
+    width: 65%;
+    position: relative;
+  }
+
+  .search-calendar-box {
+    top: 42px;
+    left: 0;
+  }
+
+  .rdrCalendarWrapper,
+  .rdrDateRangeWrapper,
+  .rdrMonth {
+    width: 350px;
+  }
+}
