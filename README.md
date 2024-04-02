@@ -1,4 +1,4 @@
-# React E-commerce App
+# React Hotel Booking App
 This React application provides a robust e-commerce platform for selling digital products. Built with modern JavaScript technologies, it offers comprehensive features for both customers and administrators.
 
 ## Features:
