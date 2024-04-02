@@ -1,5 +1,5 @@
 # React Hotel Booking App
-This React application provides a robust e-commerce platform for selling digital products. Built with modern JavaScript technologies, it offers comprehensive features for both customers and administrators.
+This React application provides a robust platform for hotel booking. It offers comprehensive features for both customers and administrators.
 
 ## Features:
 - User authentication: Secure user registration and login using [token authorization, password encryption].
